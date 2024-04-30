@@ -1,0 +1,112 @@
+.box {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.box .container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+/* section entry */
+/* topbox  */
+.box .container .topBox {
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.topBox h4 {
+    color: #ADB7CE;
+    cursor: pointer;
+}
+.topBox h1 {
+    cursor: pointer;
+}
+.topBox p {
+    color: #ADB7CE;
+    cursor: pointer;
+}
+/* bottomBox  */
+.box .container .bottomBox {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* bottom box img and write  */
+.bottomBox .imgWriteBox {
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.imgWriteBox img {
+    width: 80%;
+    align-self: center;
+}
+.imgWriteBox img:hover {
+    width:78%;
+    border: 3px solid goldenrod;
+}
+/* bottom box write entry  */
+.imgWriteBox .writeBox {
+    display: flex;
+    flex-direction: column;
+}
+.imgWriteBox .writeBox h3 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.imgWriteBox .writeBox .likeBox {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 15px;
+}
+.imgWriteBox .writeBox p {
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+    color: #ADB7CE;
+}
+.bottomBox .imgWriteBox .writeBox .btnBox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 15px;
+}
+.btnBox button {
+    padding: 5px 20px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.btnBox button:hover {
+    padding: 5px 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+.btBox {
+    background-color: black;
+    color: white;
+}
+.btBox:hover {
+    background-color: white;
+    color: black;
+}
+
+
+    /* <div className={styles.topBox}>
+            <h4>POPULAR PRODUCTS</h4>
+            <h1>Our Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
+        </div> */
